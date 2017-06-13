@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/studentsHd.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+
+.bodyFomulario{
+  width: 50% !important;
+  padding: 2%!important;
+  border-radius: 15px 50px!important;
+  box-shadow: 0.5px 0.5px 0.5px 2px black!important;
+  margin: 1%!important;
+  margin-left: 25%!important;
+  background-color: rgba(167, 167, 167, 0.73)!important;
+}
+
+.bodyFomulario label{
+  width: 20%!important;
+  text-align: left!important;
+}
+.bodyFomulario input{
+  width: 45%!important;
+}
+.bodyFomulario select{
+  width: 45%!important;
+}
+.paisesForm{
+  width: 45%!important;
+}
+
+.footer-ContenedorTotal{
+  background-color: black!important;
+  clear: both!important;
+  position: relative!important;
+  height: 100px!important;
+}
+.logoFullStack{
+  position: absolute!important;
+  right: 10px!important;
+  bottom: 10px!important;
+}
+.logoFullStack img{
+  width: 30%!important;
+}
+.footerSuscribiteNewsletter{
+  border-top: 2px solid rgb(190, 190, 190)!important;
+  padding-top: 2%!important;
+}
+.footerCopyright p{
+  margin-top: 1%!important;
+  margin-bottom: 0.5%!important;
+  color: white!important;
+  font-size: 0.7em!important;
+}

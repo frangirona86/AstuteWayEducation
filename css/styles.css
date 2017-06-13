@@ -1,0 +1,263 @@
+
+
+body,html {
+    height: 100%;
+      /*font-family: 'Dosis', sans-serif;*/
+      font-family: 'Englebert', sans-serif;
+      background-color: white !important;
+  }
+
+  .w3-container p {
+    text-align: center!important;
+  }
+
+
+  .headerContenedorRedesSociales{
+    position: absolute;
+    right: 45px;
+    top:10px;
+  }
+  .headerContenedorRedesSociales img{
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 4%;
+  }
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/portadaStudent.jpg");
+    min-height: 40%;
+    background-position: bottom;
+}
+.menu {
+    display: none;
+}
+.formularioTotal{
+padding: 1%;
+ width: 100%;
+ background-image: url("../images/estudiaDesdeTuCasa.jpg");
+ background-position:center;
+
+}
+
+
+
+.formularioTotal input, select{
+ width: 45%;
+
+}
+
+.formularioTotal div{
+ margin-top: 1%;
+ overflow: hidden;
+}
+
+
+.footer-ContenedorTotal{
+  background-color: black ;
+  position: relative!important;
+  height: 100px;
+  width: 100% ;
+
+}
+
+
+.footerSuscribiteNewsletter{
+  margin-top: 0px;
+  font-size: 1em;
+  float:none;
+  margin-bottom: 1%;
+}
+footer{
+  clear: both;
+}
+h6{
+  display: inline-block;
+  float: left;
+  font-size: 0.7em !important;
+  padding-left: 1% !important;
+  border-left: solid 1px black;
+  width: 45%;
+  font-weight: bold !important;
+}
+
+.footerCopyright p{
+  color: white!important;
+  font-size: 0.7em!important;
+  margin-left: 45%;
+  margin-top: 2%!important;
+  }
+
+.programasMuestra div{
+  display: block;
+  width: 45%;
+}
+.logoAstute img{
+    width: 15%;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+}
+header{
+  position: relative;
+}
+
+.footerSuscribiteNewsletter form{
+  padding-top: 1%;
+  margin-left: 28.5%;
+  }
+.footerSuscribiteNewsletter input{
+  width:30%;
+  padding: 0.5%;
+  border-radius: 20px;
+}
+
+.footer-ContenedorTotal{
+  width: 100%;
+}
+
+.interiorForm h3{
+  color: white;
+  margin: auto;
+}
+
+.formularioTotal h1 {
+   text-align: center;
+   color: #252525;
+   text-shadow(1px 1px 0 rgba(white, 1));
+}
+
+.formularioTotal form {
+   max-width: 900px;
+   text-align: center;
+   margin: 20px auto;
+   margin-bottom: 0;
+}
+
+.formularioTotal input:focus{
+       border: solid 2px ;
+    }
+.formularioTotal select:focus{
+      border: solid 2px #2196F3;
+    }
+.formularioTotal h3{
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  background-color:rgba(22, 22, 22, 0.69) ;
+}
+
+.primeraMitad div{
+  margin: 0px;
+  font-size: 0.8em;
+  border-radius: 10px;
+  width: 45%;
+  margin-right: 1%;
+  margin-left: 1%;
+  display: inline-block;
+  overflow: hidden;
+}
+.primeraMitad input{
+  margin-bottom:1%;
+  border-radius: 10px;
+  padding: 1%;
+}
+.primeraMitad select{
+  margin-bottom: 1%;
+  border-radius: 10px;
+  padding: 1%;
+}
+.segundaMitad div{
+  margin: 0px;
+  font-size: 0.8em;
+  border-radius: 10px;
+  width: 45%;
+  margin-right: 1%;
+  margin-left: 1%;
+  overflow: hidden;
+}
+.segundaMitad input{
+  margin-bottom:1%;
+  border-radius: 10px;
+  padding: 1%;
+}
+.segundaMitad select{
+  margin-bottom: 1%;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.footerSuscribiteNewsletter input{
+  font-size: 0.8em;
+  box-shadow: 1px 1px 2px;
+  font-weight: bold;
+}
+.logoOBS img{
+  width: 10%;
+  position: absolute;
+  bottom: 30%;
+  left: 2%;
+}
+.logoBar img{
+  width: 10%;
+  position: absolute;
+  bottom: 25%;
+  left: 13%;
+}
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%;
+     float: none;
+     margin-bottom: 0;
+  }
+  .w3-row{
+    display: none;
+  }
+  .logoAstute img{
+    width: 100%;
+  }
+  .bgimg {
+    height: 70px;
+  }
+  .w3-grayscale-min {
+    filter: grayscale(30%);
+}
+.botonSubmit input{
+  margin-left: 0%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.headerContenedorRedesSociales div{
+  display: none;
+}
+.formularioTotal input{
+ width: 90%;
+ margin: 1%;
+ font-size: 1.3em;
+}
+.formularioTotal select{
+ width: 90%;
+ margin: 1%;
+ font-size: 1.3em;
+}
+.footerSuscribiteNewsletter form{
+  width: 90%;
+  margin-left: 20%;
+  padding-top: 2%;
+}
+.footerSuscribiteNewsletter input{
+width: 70%;
+margin-left: 0%;
+}
+.footerCopyright p{
+  color: white!important;
+  font-size: 0.7em!important;
+  margin-left: 35%;
+  margin-top: 3%!important;
+}
+.logoOBS{
+  display: none;
+}
+}
